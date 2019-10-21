@@ -1,0 +1,58 @@
+### TODO fix ivp6
+
+
+```
+grep -r listen /etc/nginx/sites-available
+```
+
+```
+/etc/nginx/sites-available/museum-assets.ultimheat.com:   listen 80;
+/etc/nginx/sites-available/reta.abatros.com:   listen 80;
+/etc/nginx/sites-available/reta.abatros.com:    listen 443 ssl; # managed by Certbot
+Binary file /etc/nginx/sites-available/.museum2.ultimheat.com.swp matches
+/etc/nginx/sites-available/ultimheat.com:  listen 80;
+/etc/nginx/sites-available/ultimheat.com:    listen 443 ssl; # managed by Certbot
+/etc/nginx/sites-available/ultimheat.com:  listen 80;
+/etc/nginx/sites-available/ultimheat.com:#  listen 80;
+/etc/nginx/sites-available/ultimheat.com:#  listen [::]:80;
+/etc/nginx/sites-available/ultimheat.com:  listen 80;
+/etc/nginx/sites-available/ultimheat.com:  listen [::]:80;
+/etc/nginx/sites-available/ultimheat.com:  listen 443 ssl; # managed by Certbot
+/etc/nginx/sites-available/ultimheat.com:#    listen 80;
+/etc/nginx/sites-available/ultimheat.com:#    listen [::]:443 ssl; # managed by Certbot
+/etc/nginx/sites-available/ultimheat.com:#    listen 443 ssl; # managed by Certbot
+/etc/nginx/sites-available/ultimheat.com:#	listen 443;
+/etc/nginx/sites-available/ultimheat.com:#	listen 80;
+/etc/nginx/sites-available/ultimheat.com:#	listen [::]:80;
+/etc/nginx/sites-available/dico-chauffage.abatros.com:   listen 80;
+/etc/nginx/sites-available/abatros.com:  listen 80; # managed by Certbot
+/etc/nginx/sites-available/abatros.com:  listen 443 ssl; # managed by Certbot
+/etc/nginx/sites-available/editora.ultimheat.com:   listen 80;
+/etc/nginx/sites-available/git.ultimheat.com:   listen 80;
+/etc/nginx/sites-available/git.ultimheat.com:   listen 80;
+/etc/nginx/sites-available/museum2.ultimheat.com:#    listen 443 ssl; # managed by Certbot
+/etc/nginx/sites-available/museum2.ultimheat.com:#    listen 443 ssl; # managed by Certbot
+/etc/nginx/sites-available/museum2.ultimheat.com:  listen 80;
+/etc/nginx/sites-available/museum2.ultimheat.com:  listen [::]:80;
+/etc/nginx/sites-available/museum.ultimheat.com:#    listen 443 ssl; # managed by Certbot
+/etc/nginx/sites-available/museum.ultimheat.com:#    listen 443 ssl; # managed by Certbot
+/etc/nginx/sites-available/museum.ultimheat.com:    listen 80; # managed by Certbot
+/etc/nginx/sites-available/museum.ultimheat.com:    listen 443 ssl; # managed by Certbot
+/etc/nginx/sites-available/museum.ultimheat.com:#  listen 80;
+/etc/nginx/sites-available/scooru.abatros.com:   listen 80;
+/etc/nginx/sites-available/scooru.abatros.com:    listen 443 ssl; # managed by Certbot
+/etc/nginx/sites-available/dico-chauffage.ultimheat.com:   listen 80;
+/etc/nginx/sites-available/static.abatros.com:  listen 80;
+/etc/nginx/sites-available/static.abatros.com:  listen [::]:80;
+/etc/nginx/sites-available/museum.abatros.com:  listen 80;
+/etc/nginx/sites-available/museum.abatros.com:#    listen 443 ssl; # managed by Certbot
+/etc/nginx/sites-available/museum-admin:  listen 80;
+/etc/nginx/sites-available/ultimheat.co.th:   listen 80; ## listen for ipv4; this line is default and implied
+/etc/nginx/sites-available/ultimheat.co.th:   listen [::]:80;
+/etc/nginx/sites-available/default:	listen 80 default_server;
+/etc/nginx/sites-available/default:	listen [::]:80 default_server;
+/etc/nginx/sites-available/default:	# listen 443 ssl default_server;
+/etc/nginx/sites-available/default:	# listen [::]:443 ssl default_server;
+/etc/nginx/sites-available/default:#	listen 80;
+/etc/nginx/sites-available/default:#	listen [::]:80
+```
