@@ -1,0 +1,30 @@
+### 101 Antoine Fix.
+
+#### October-22-2019
+
+- ultimheat.com main page => "Main products" => "Warning: Parameter 2 to qtranxf_postsFilter() "
+- wget http://ultimheat.com
+- ls -latr (reverse)
+- nginx ultimheat.com
+  - listen [::]:80 -> Ok.
+  - root /home/dkz/tmp/git-u7; !!! to be fixed.
+- Hard Drive  /media/dkz/Seagate/git-u7 : latest repository.
+
+```
+dkz@XPS-8500:/media/dkz/Seagate/git-u7$ git remote -v
+origin	dkz@abatros.com:~/tmp/git-u7 (fetch)
+origin	dkz@abatros.com:~/tmp/git-u7 (push)
+dkz@XPS-8500:/media/dkz/Seagate/git-u7$ git fetch
+dkz@XPS-8500:/media/dkz/Seagate/git-u7$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+dkz@XPS-8500:/media/dkz/Seagate/git-u7$ 
+
+cp index.html index-jean-noel.html (original) @ oct-22.
+cp ULTIMHEAT(FR).html ultimheat-fr-jn.html @ oct-22.
+cp ULTIMHEAT(TH).html ultimheat-th-jn.html @ oct-22.
+cp ULTIMHEAT(CN).html ultimheat-cn-jn.html @ oct-22.
+
+
+```
