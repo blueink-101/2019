@@ -10,3 +10,18 @@ wget  --reject jpg,png,pdf  --accept html
 
 
 http://design.eglogics.website/ultimheat/new-images/Y0308G.jpg
+
+#### oct-22
+
+```
+dkz@XPS-8500~/tmp/antoine-fix$ wget -rc --accept html,png,jpg,pdf -k --convert-links http://design.eglogics.website/ultimheat
+```
+into dkz/tmp/antoine-fix => "1,159 items, totalling 110.8 MB"
+
+On Linode (40 sec)
+
+```
+dkz@blueink:/www$ wget -rc --accept html,png,jpg,pdf -k --convert-links http://design.eglogics.website/ultimheat
+```
+=> /www/design.eglogics.website
+
